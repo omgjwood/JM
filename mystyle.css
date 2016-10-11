@@ -1,0 +1,68 @@
+body{
+    background-color:#39004d;
+}
+h1{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color:#ffffff;
+}
+.mainnav{
+    display: inline-flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    list-style:none;
+    float: right;
+    margin: 0px;
+    position: relative;
+}
+li{
+    border-right: #ffffff 1px solid;
+    padding: 15px;
+    float: right;
+    line-height: 2px;
+}
+nav a:link{
+	color: white;
+	text-decoration: none;	
+}
+nav a:hover{
+    color: black;
+	text-decoration: none;
+}
+nav a:visited{
+    color:white;
+    text-decoration:none;
+}
+li: child(4){
+    border: none;
+}
+.web{
+    height: 500px;
+    width: 45%;
+    float: left;
+}
+
+.web li{
+    list-style: none;
+    border: none;
+}
+
+.print{
+    height: 500px;
+    width: 45%;
+    float: right;
+}
+.print li{
+    list-style: none;
+    border: none;
+    display:block;
+}
+footer{
+    clear: both;
+}
