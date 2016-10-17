@@ -6,7 +6,9 @@ h1{
     font-size: 100px;
     text-align: center;
 }
-
+h2{
+    font-size: 45px;
+}
 body{
     font-family: 'Quicksand', sans-serif;
     color:#ffffff;
@@ -73,6 +75,28 @@ column-count: 3;
 -webkit-column-count: 2;
 column-count: 2;
 }
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.side_col{
+  width: 18%;
+    height: 300px;
+    float:right;
+    padding: 10px;
+    margin: 15px;
+    border: 2px white solid;
+    text-align: left;
+    font-size: 20px;
+}
+.side_col li{
+    list-style: none;
+    border: none;
+    float: left;
+    display: block;
+}   
 
 footer{
     clear: both;
