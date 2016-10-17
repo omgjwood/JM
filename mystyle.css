@@ -45,7 +45,6 @@ li: child(4){
 .web{
     height: 500px;
     width: 45%;
-    float: left;
 }
 
 .web li{
@@ -56,7 +55,6 @@ li: child(4){
 .print{
     height: 500px;
     width: 45%;
-    float: right;
 }
 .print li{
     list-style: none;
